@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Лабораторна</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-</body>
-</html>
+<h1>Освітня програма: Комп’ютерна Інженерія</h1>
+
+<div class="subtitle">
+    <p>Рівень: Бакалавр</p>
+    <p>Галузь: 12 — Інформаційні технології</p>
+    <p>Спеціальність: 123 — Комп’ютерна інженерія</p>
+    <p>Студент: Юринець Петро</p>
+</div>
