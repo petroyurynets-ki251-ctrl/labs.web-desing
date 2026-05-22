@@ -24,15 +24,16 @@ header{
     margin-bottom: 30px;
 }
 
-.menu{
+.navigation{
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     margin-top: 20px;
+    list-style: none;
 }
 
-.menu a{
+.navigation a{
     text-decoration: none;
     background: #1e90ff;
     color: white;
@@ -88,7 +89,7 @@ tr:nth-child(even){
     border-radius: 10px;
 }
 
-.contact-form{
+#feedbackForm{
     max-width: 400px;
     margin: 30px auto;
     display: flex;
@@ -96,9 +97,16 @@ tr:nth-child(even){
     gap: 10px;
 }
 
-.contact-form input,
-.contact-form button{
+#feedbackForm input,
+#feedbackForm textarea,
+#feedbackForm button{
     padding: 10px;
+}
+
+/* ===== IFRAME ===== */
+iframe{
+    margin-top: 20px;
+    border: none;
 }
 
 footer{
@@ -107,23 +115,18 @@ footer{
     padding: 15px;
 }
 
-iframe{
-    margin-top: 20px;
-    border: none;
-}
-
 @media screen and (max-width: 375px){
 
     body{
         padding: 10px;
     }
 
-    .menu{
+    .navigation{
         flex-direction: column;
         align-items: center;
     }
 
-    .menu a{
+    .navigation a{
         width: 100%;
         text-align: center;
     }
@@ -148,21 +151,5 @@ iframe{
     img{
         width: 100%;
         height: auto;
-    }
-}
-@media screen and (max-width:375px){
-
-    .menu{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .developers{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    body{
-        overflow-x:hidden;
     }
 }
