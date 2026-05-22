@@ -1,141 +1,51 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лабораторна</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Лабораторна робота 6</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Освітня програма: Комп'ютерна інженерія</h1>
+    <h1>Публічне управління та адміністрування</h1>
 
-    <nav class="menu">
-        <a href="#meta">Мета</a>
-        <a href="#komp">Компетенції</a>
-        <a href="#comp">Компоненти</a>
-        <a href="group.html">Робоча група</a>
-        <a href="reports.html">Звіти</a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="./index.html">Головна</a></li>
+            <li><a href="./group.html">Розробники</a></li>
+            <li><a href="./competencies.html">Компетенції</a></li>
+            <li><a href="./components.html">Компоненти</a></li>
+            <li><a href="./graph.html">Схема</a></li>
+            <li><a href="./reports.html">Звіти</a></li>
+        </ul>
     </nav>
 </header>
 
-<div class="subtitle">
-    <p>Рівень: Бакалавр</p>
-    <p>Галузь: 12 — Інформаційні технології</p>
-    <p>Спеціальність: 123 — Комп’ютерна інженерія</p>
-    <p>Студент: Юринець Петро</p>
-</div>
+<main>
 
-<h2 id="meta">Мета освітньої програми</h2>
+    <section>
+        <p>Рівень вищої освіти: магістр</p>
+        <p>Галузь знань: D - Бізнес, адміністрування та право</p>
+        <p>Спеціальність: D4 - Публічне управління та адміністрування</p>
+    </section>
 
-<p>
-    Підготовка висококваліфікованих фахівців у галузі інформаційних технологій,
-    здатних проєктувати, розробляти та обслуговувати комп’ютерні системи.
-</p>
+    <section>
+        <h2>Мета освітньої програми</h2>
 
-<h2 id="komp">Програмні компетентності</h2>
+        <p>
+            Підготовка фахівців у сфері публічного управління та адміністрування,
+            здатних ефективно працювати в державному секторі.
+        </p>
+    </section>
 
-<ul class="list">
-    <li>Знання сучасних інформаційних технологій.</li>
-    <li>Вміння працювати з комп’ютерними системами.</li>
-    <li>Розробка програмного забезпечення.</li>
-    <li>Забезпечення безпеки мереж.</li>
-</ul>
-
-<h2 id="comp">Перелік компонент</h2>
-
-<table>
-    <tr>
-        <th>№</th>
-        <th>Назва</th>
-        <th>Контроль</th>
-    </tr>
-
-    <tr>
-        <td>1</td>
-        <td>Математика</td>
-        <td>Залік</td>
-    </tr>
-
-    <tr>
-        <td>2</td>
-        <td>Програмування</td>
-        <td>Залік</td>
-    </tr>
-
-    <tr>
-        <td>3</td>
-        <td>Історія України</td>
-        <td>Залік</td>
-    </tr>
-</table>
-
-<h2>Картина: Едварда Мунка «Крик»</h2>
-
-<img src="scheme.png" class="center" alt="Схема">
-
-<h2>Розробники освітньої програми</h2>
-
-<div class="developers">
-
-    <div class="developer-card">
-        <img src="photo1.png" alt="Фото">
-        <h3>Чудик І.І.</h3>
-        <p>Викладач</p>
-    </div>
-
-    <div class="developer-card">
-        <img src="photo2.png" alt="Фото">
-        <h3>Мокляк В.В.</h3>
-        <p>Викладач</p>
-    </div>
-
-</div>
-
-<h2>PDF освітньої програми</h2>
-
-<iframe
-    src="https://drive.google.com/file/d/1eX5VC0UAitbca3OgUoNFOJH2tfxjYuMK/preview"
-    width="100%"
-    height="600">
-</iframe>
-
-<h2>Відео про ІФНТУНГ</h2>
-
-<iframe
-    width="100%"
-    height="500"
-    src="https://www.youtube.com/embed/aqz-KE-bpKQ"
-    title="YouTube video"
-    frameborder="0"
-    allowfullscreen>
-</iframe>
-
-<h2>Форма зворотного зв'язку</h2>
-
-<form class="contact-form">
-
-    <input type="text" placeholder="ПІБ" required>
-
-    <input
-        type="tel"
-        placeholder="Телефон"
-        pattern="[0-9+ ]{10,}"
-        required>
-
-    <input type="time" min="09:00" max="18:00">
-
-    <button type="submit">Відправити</button>
-
-</form>
+</main>
 
 <footer>
-    Петро Юринець ІФНТУНГ, 2026 р.
+    <p>Петро Петренко © ІФНТУНГ, 2026 р.</p>
 </footer>
 
 </body>
-
 </html>
